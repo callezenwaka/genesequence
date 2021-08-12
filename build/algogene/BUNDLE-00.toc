@@ -1,0 +1,3 @@
+([('algogene',
+   '/Users/mac/Documents/Projects/algogene/dist/algogene',
+   'EXECUTABLE')],)
