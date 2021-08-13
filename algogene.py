@@ -51,6 +51,6 @@ def set_output(data, params):
 
 
 try:
-    eel.start('index.html', size=(500, 400))
+    eel.start('index.html', size=(500, 400), mode='default')
 except (SystemExit, MemoryError, KeyboardInterrupt):
     pass

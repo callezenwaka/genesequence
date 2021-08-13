@@ -6,6 +6,7 @@ https://github.com/SouravJohar/getting-started-with-eel
 https://github.com/techformist/simple-vue-html-axios-demo
 https://techformist.com/use-vue-from-url-simple-app/
 https://github.com/smketterer/vue-eel-starter
+https://realpython.com/pyinstaller-python/
 
 The simplest and fastest way to create applications with a Web UI and a Python backend.
 
