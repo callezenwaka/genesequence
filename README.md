@@ -32,5 +32,5 @@ $ python algogene.py
 ## Packaging the app
 You can pass any valid `pyinstaller` flag in the following command to further customize the way your app is built.
 ```sh
-$ python -m eel algogene.py web --noconsole --onefile --name algogene --icon=algogene.ico
+$ python -m eel algogene.py web --noconsole --onefile --name algogene --icon=algogene.icns
 ```
