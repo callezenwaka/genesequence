@@ -1,4 +1,8 @@
 import random
+import os
+import platform
+import random
+import sys
 import eel
 # from algogene import Sequence
 from sequence import Sequence
@@ -51,6 +55,12 @@ def set_output(data, params):
 
 
 try:
-    eel.start('index.html', size=(500, 400), mode='default')
+    eel.start('index.html', size=(600, 400))
+except EnvironmentError:
+    # If Chrome isn't found, fallback to Microsoft Edge on Win10 or greater
+    if sys.platform in ['win32', 'win64'] and int(platform.release()) >= 10:
+        eel.start('index.html', size=(600, 400), mode='edge')
+    else:
+        raise
 except (SystemExit, MemoryError, KeyboardInterrupt):
     pass

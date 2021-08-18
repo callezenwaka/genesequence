@@ -1,4 +1,4 @@
-# getting-started-with-eel
+# Algogene
 
 Resources:
 https://github.com/paulwinex/eel-vuejs-example
@@ -31,6 +31,11 @@ $ python algogene.py
 
 ## Packaging the app
 You can pass any valid `pyinstaller` flag in the following command to further customize the way your app is built.
+For windows OS
 ```sh
 $ python -m eel algogene.py web --noconsole --onefile --name algogene --icon=algogene.ico
+```
+For macOS
+```sh
+$ python -m eel algogene.py web --noconsole --onefile --name algogene --icon=algogene.icns
 ```
