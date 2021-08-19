@@ -1,0 +1,3 @@
+([('genesequence',
+   '/Users/mac/Documents/Projects/genesequence/dist/genesequence',
+   'EXECUTABLE')],)

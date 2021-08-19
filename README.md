@@ -13,8 +13,8 @@ The simplest and fastest way to create applications with a Web UI and a Python b
 ## Getting Started
 - Clone the repo and cd into the directory
 ```sh
-$ git clone git@github.com:callezenwaka/algogene.git
-$ cd algogene
+$ git clone git@github.com:callezenwaka/genesequence.git
+$ cd genesequence
 ```
 
 - Install eel, and pyinstaller
@@ -26,16 +26,16 @@ $ pip install eel pyinstaller
 - Run the app
 
 ```sh
-$ python algogene.py
+$ python genesequence.py
 ```
 
 ## Packaging the app
 You can pass any valid `pyinstaller` flag in the following command to further customize the way your app is built.
 For windows OS
 ```sh
-$ python -m eel algogene.py web --noconsole --onefile --name algogene --icon=algogene.ico
+$ python -m eel genesequence.py web --noconsole --onefile --name genesequence --icon=genesequence.ico
 ```
 For macOS
 ```sh
-$ python -m eel algogene.py web --noconsole --onefile --name algogene --icon=algogene.icns
+$ python -m eel genesequence.py web --noconsole --onefile --name genesequence --icon=genesequence.icns
 ```
